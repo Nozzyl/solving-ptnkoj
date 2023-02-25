@@ -11,7 +11,9 @@ int main()
 		if (n % i == 0)
 		{
 			out += i;
-			out += n / i;
+			if (i != n / i) {
+			    out += n / i;
+			}
 		}
 	}
 	std::cout << out;
