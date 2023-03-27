@@ -30,12 +30,14 @@ int main() {
                     k++;
                     tfs = false;
                 }
+                else break;
             }
             else {
                 if (a[j - 1] > a[j]) {
                     k++;
                     tfs = true;
                 }
+                else break;
             }
             j++;
         }
